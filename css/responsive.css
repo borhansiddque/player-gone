@@ -3,9 +3,19 @@
 }
 
 @media screen and (max-width: 768px) {
-    
+    nav {
+        padding: 40px 0px;
+        box-shadow: none;
+    }
+
+    .nav-items {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
 @media screen and (max-width: 576px) {
-    
+    .menu-nav-social {
+        flex-direction: column;
+    }
 }

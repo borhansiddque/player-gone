@@ -15,3 +15,86 @@ a {
 li {
     list-style: none;
 }
+
+.container {
+    width: 82%;
+    margin: 0 auto;
+}
+
+.primary-color {
+    color: #FF42A5;
+}
+
+/* Navbar Style */
+
+nav {
+    padding: 20px 0px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.logo-img img {
+    width: 60px;
+}
+
+.logo-text {
+    font-size: 1.7rem;
+    color: #0B0223;
+}
+
+.menu-nav-social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.menu li a {
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-social {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    background: #0b02231a;
+    padding: 15px;
+}
+
+.nav-social p {
+    color: #3C354F;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.nav-youtube {
+    color: #ff0000;
+}
