@@ -34,6 +34,19 @@
     .funny-video-card-container {
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .careers-container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .careers-info {
+        width: 100%;
+    }
+    
+    .careers-img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 768px) {

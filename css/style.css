@@ -269,8 +269,6 @@ nav {
 .funny-video-card-img {
     position: relative;
     cursor: pointer;
-    border: 3px solid #fff;
-    border-radius: 16px;
 }
   
 .image {
@@ -280,6 +278,8 @@ nav {
     height: auto;
     transition: all .5s;
     backface-visibility: hidden;
+    border: 3px solid #fff;
+    border-radius: 16px;
 }
   
 .middle {
@@ -296,7 +296,6 @@ nav {
 .funny-video-card-img:hover .image {
     opacity: 0.5;
     border: 3px solid #ff42a5;
-    border-radius: 16px;
 }
   
 .funny-video-card-img:hover .middle {
@@ -322,3 +321,62 @@ nav {
     margin-top: 10px;
 }
 
+/* Careers Section Style */
+
+.careers-section {
+    background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+    padding: 80px 0px;
+}
+
+.careers-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.careers-info {
+    width: 50%;
+    color: #fff;
+}
+
+.careers-info-title {
+    color: #FFF;
+    font-size: 3rem;
+}
+
+.career-info-desc {
+    color: #FFF;
+    font-size: 1.1rem;
+    line-height: 30px;
+    margin: 20px 0px 30px;
+}
+
+.careers-info .btn-primary {
+    background-color: #fff;
+    color: #FF42A5;
+    margin-top: 35px;
+}
+
+.careers-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.list-right {
+    text-align: right;
+}
+
+.careers-img {
+    width: 50%;
+    height: 100%;
+}
+
+.careers-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
