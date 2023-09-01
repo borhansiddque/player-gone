@@ -25,6 +25,18 @@ li {
     color: #FF42A5;
 }
 
+.btn-primary {
+    padding: 20px 35px;
+    background-color: #FF42A5;
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
 /* Navbar Style */
 
 nav {
@@ -91,6 +103,9 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.nav-social-item i {
     font-size: 1.5rem;
     cursor: pointer;
 }
@@ -98,3 +113,68 @@ nav {
 .nav-youtube {
     color: #ff0000;
 }
+
+/* Banner Section Style */
+
+.banner-section {
+    display: flex;
+    gap: 60px;
+}
+
+.banner-btn-2 {
+    background-color: #4EC5F7;
+    margin-left: 10px;
+}
+
+.banner-info-container {
+    width: 50%;
+    padding: 40px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/Group14.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-sub-title {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-title {
+    font-size: 5.9rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-desc {
+    margin: 20px 0px 40px;
+}
+
+.banner-desc-text {
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.banner-desc-text i {
+    color: #ff42a5;
+}
+
+.banner-img {
+    width: 50%;
+}
+
+.banner-img img {
+    width: 80%;
+}
+
