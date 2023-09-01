@@ -30,6 +30,10 @@
         width: 100%;
         text-align: center;
     }
+
+    .funny-video-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -59,5 +63,13 @@
 
     .we-are-gamer-sub-desc {
         margin-top: 40px;
+    }
+
+    .funny-video-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .funny-video-title {
+        font-size: 2.6rem;
     }
 }
