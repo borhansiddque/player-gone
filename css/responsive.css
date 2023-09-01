@@ -85,4 +85,8 @@
     .funny-video-title {
         font-size: 2.6rem;
     }
+
+    .all-games-container {
+        row-gap: 15px;
+    }
 }
